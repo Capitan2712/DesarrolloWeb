@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+. {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    background-color:lightcyan;
+}
+
+header {
+    
+    background-image: url(imagen/hero.svg); 
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.menu .logo {
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color:rgb(244, 238, 238);
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: rgb(23, 5, 145);
+}
+
+.menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    display: flex;
+}
+
+.content {
+    padding: 150px 150px 0px 0px;
+}
+
+.content h1 {
+    color: white;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 500px;
+    line-height: 55px;
+    
+}
+
+.content p {
+    margin-top: 25px;
+    color: powderblue;
+    text-transform: uppercase;
+    font-size: 35px;
+    line-break: 40px;
+}
+
+.btn-1 {
+    display: inline-block;
+    background-color: rgba(170, 177, 225, 0.3);
+    border: 1px solid rgb(161, 161, 237);
+    margin: 35px 10px 0px 0px;
+    padding: 15px 25px;
+    color: whitesmoke
+    border-radius: 25px;
+}
+
+.btn-1:hover {
+    background-color: rgb(117, 97, 215);
+}
+
+
+.services {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.service {
+    padding: 25px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 20px rgba(135, 141, 214, 0.3):
+}
+
+.service img {
+    margin-top: -50px;
+}
+
+.service h3 {
+    font-size: 20px;
+    color:silver;
+    margin-bottom: 10px;
+}
+
+
+.service p {
+    color: powderblue:
+    font-size: 16px;
+}
+    
+.porfolios {
+    padding: 80px 0px;
+    text-align: center;
+    color: black
+}
+
+.porfolios h2 {
+    font-size: 55px;
+}  
+
+.porfolio {
+    display: flex;
+    align-items: center;
+}
+
+.porfolio img {
+    width: 25px;
+    height: 25px;
+}
+
+.porfolio-1 {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.porfolio-1 h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.porfolio-1 p {
+    font-size: 18px;
+    color: #525254;
+    margin-bottom: 25px;
+}
+
+.porfolio-2 {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.porfolio-2 h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.porfolio-2 p {
+    font-size: 18px;
+    color: #525254;
+    margin-bottom: 25px;
+}
+
+.btn-2 {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 25;
+    background-color: mediumorchid;
+    color: aliceblue;
+}
+
+.btn-2:hover {
+    background-color: blueviolet;
+}
+
+.footer {
+    padding: 200px 0px 30px 0px;
+    background-image: url(imagen/antartice.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-price{
+    padding: 35px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+    margin: 0px 150px 0px 0px;
+    color: black;
+}
+
+.info-price h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 14px;
+    color: aqua !important;
+    margin-bottom: 10px;
+}
+
+.info-price p {
+    font-size: 16px;
+    color: #525254;
+}
+
+.info-txt {
+    margin-left: 35px;
+    color: aliceblue;
+}
+
+hr {
+    margin: 45px 0px;
+    border: 0.5px solid cadetblue;
+}
+
+.enlaces {
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+}
+
+.enlaces h3 {
+    font-size: 25px;
+}
+
+.enlace {
+    display: flex;
+}
+
+.enlace li a {
+    display: block;
+    margin: 20px;
+    color: azure;
+}
+
+.enlace li.a:hover {
+    color: aquamarine;
+}
+
+@media (max-width:991px) {
+    .menu {
+        padding: 20px;
+    }
+    
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        right: 0;
+        background-color: blueviolet;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100px;
+    }
+
+}
